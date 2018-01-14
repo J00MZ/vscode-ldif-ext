@@ -1,0 +1,27 @@
+{
+    "name": "ldif",
+    "displayName": "LDIF syntax",
+    "description": "VS Code extension for Ldif syntax highlighting",
+    "version": "0.0.2",
+    "publisher": "jtavin",
+    "icon": "./read-ldif.png",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ldif",
+            "aliases": ["LDIF", "ldif"],
+            "extensions": [".ldif",".ldf",".LDIF",".LDF"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ldif",
+            "scopeName": "text.ldif",
+            "path": "./syntaxes/ldif.tmLanguage"
+        }]
+    }
+}
