@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "publisher": "jtavin",
     "repository": "https://github.com/J00MZ/vscode-ldif-ext",
-    "icon": "https://github.com/J00MZ/vscode-ldif-ext/images/ldif.png",
+    "icon": "images/ldif.png",
     "engines": {
         "vscode": "^1.19.0"
     },

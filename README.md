@@ -8,7 +8,7 @@ Based on syntax highlighter [LDIF-syntax](https://github.com/FlashSystems/LDIF-S
 ## Features
 
 Ldif syntax highlighter for Visual Studio Code  
-For [example](https://github.com/J00MZ/images/ldif-syntax.png)
+For [example](images/ldif-syntax.png)
 
 ## Installation
 
