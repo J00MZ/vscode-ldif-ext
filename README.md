@@ -1,4 +1,4 @@
-# vscode-ldif-syntax README
+# vscode-ldif-syntax
 
 Simple LDIF syntax highlighter for Visual Studio Code  
 LDIF stands for "LDAP Data Interchange Format"  
@@ -8,7 +8,7 @@ Based on syntax highlighter [LDIF-syntax](https://github.com/FlashSystems/LDIF-S
 ## Features
 
 Ldif syntax highlighter for Visual Studio Code  
-For [example](images/ldif-syntax.png)
+For [example](https://github.com/J00MZ/images/ldif-syntax.png)
 
 ## Installation
 
@@ -18,6 +18,8 @@ For [example](images/ldif-syntax.png)
 ## Release Notes
 
 N\A
+
+## Version
 
 ### 0.1.0
 
