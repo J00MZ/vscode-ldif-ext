@@ -1,10 +1,10 @@
 {
     "name": "ldif",
     "displayName": "LDIF syntax",
-    "description": "VS Code extension for Ldif syntax highlighting",
-    "version": "0.0.2",
+    "description": "VS Code extension for LDIF syntax highlighting",
+    "version": "0.1.0",
     "publisher": "jtavin",
-    "icon": "./read-ldif.png",
+    "icon": "images/ldif.png",
     "engines": {
         "vscode": "^1.19.0"
     },
