@@ -1,7 +1,7 @@
 # Changelog
 
-Notable changes to the "LDIF syntax" extension will be documented here.
+Changes to "LDIF Syntax highlighter" extension will be documented here.
 
-## [Released]
+## Releases
 
-- Initial release
+- 0.1.0 - Initial release version
