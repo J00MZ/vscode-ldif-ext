@@ -7,14 +7,14 @@ Based on syntax highlighter [LDIF-syntax](https://github.com/FlashSystems/LDIF-S
 
 ## Features
 
-Ldif syntax highlighter for Visual Studio Code  
+Syntax highlighter for LDIF files
 For example:
 ![ldif syntax file example](/images/ldif-syntax.png)
 
 ## Installation
 
 - CTRL+P
-- `ext install ldif`
+- `ext install jtavin.ldif`
 
 ## Release Notes
 
@@ -24,4 +24,4 @@ N\A
 
 ### 0.1.0
 
-Initial release of Ldif Syntax highlighter for VS Code
+Initial release of LDIF Syntax highlighter for VS Code
