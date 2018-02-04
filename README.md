@@ -22,6 +22,6 @@ N\A
 
 ## Version
 
-### 0.1.0
+### 0.1.1
 
 Initial release of LDIF Syntax highlighter for VS Code
