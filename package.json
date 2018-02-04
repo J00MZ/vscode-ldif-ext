@@ -1,8 +1,8 @@
 {
     "name": "ldif",
     "displayName": "LDIF syntax",
-    "description": "VS Code extension for LDIF syntax highlighting",
-    "version": "0.1.0",
+    "description": "Extension for LDIF syntax highlighting",
+    "version": "0.1.1",
     "publisher": "jtavin",
     "repository": "https://github.com/J00MZ/vscode-ldif-ext",
     "icon": "images/ldif.png",

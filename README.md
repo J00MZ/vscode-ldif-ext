@@ -8,7 +8,7 @@ Based on syntax highlighter [LDIF-syntax](https://github.com/FlashSystems/LDIF-S
 ## Features
 
 Syntax highlighter for LDIF files  
-For example:
+For example:  
 ![ldif syntax file example](/images/ldif-syntax.png)
 
 ## Installation
