@@ -2,7 +2,7 @@
     "name": "ldif",
     "displayName": "LDIF syntax",
     "description": "Extension for LDIF syntax highlighting",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "publisher": "jtavin",
     "repository": "https://github.com/J00MZ/vscode-ldif-ext",
     "icon": "images/ldif.png",
@@ -13,16 +13,28 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "ldif",
-            "aliases": ["LDIF", "ldif"],
-            "extensions": [".ldif",".ldf",".LDIF",".LDF"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "ldif",
-            "scopeName": "text.ldif",
-            "path": "./syntaxes/ldif.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "ldif",
+                "aliases": [
+                    "LDIF",
+                    "ldif"
+                ],
+                "extensions": [
+                    ".ldif",
+                    ".ldf",
+                    ".LDIF",
+                    ".LDF"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ldif",
+                "scopeName": "text.ldif",
+                "path": "./syntaxes/ldif.tmLanguage"
+            }
+        ]
     }
 }
