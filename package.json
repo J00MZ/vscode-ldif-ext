@@ -10,7 +10,7 @@
         "vscode": "^1.19.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
