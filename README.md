@@ -1,5 +1,13 @@
 # vscode-ldif-syntax
+[![Version][version-badge]][version] [![Installs][installs-badge]][installs] [![Rating][ratings-badge]][ratings]
 
+[version-badge]: https://vsmarketplacebadge.apphb.com/version-short/jtavin.ldif.svg
+[version]: https://marketplace.visualstudio.com/items?itemName=jtavin.ldif
+[installs-badge]: https://vsmarketplacebadge.apphb.com/installs/jtavin.ldif.svg
+[installs]: https://marketplace.visualstudio.com/items?itemName=jtavin.ldif
+[ratings-badge]: https://vsmarketplacebadge.apphb.com/rating-star/jtavin.ldif.svg
+[ratings]: https://marketplace.visualstudio.com/items?itemName=jtavin.ldif
+  
 Simple LDIF syntax highlighter for Visual Studio Code  
 LDIF stands for "LDAP Data Interchange Format"  
 LDIF is a schema extension file format for Microsoft Active Directory  
@@ -19,10 +27,6 @@ For example:
 - `ext install jtavin.ldif`
 
 ## Release Notes
-
-N\A
-
-## Version
 
 ### 0.2.0
 
