@@ -8,16 +8,16 @@
 [ratings-badge]: https://vsmarketplacebadge.apphb.com/rating-star/jtavin.ldif.svg
 [ratings]: https://marketplace.visualstudio.com/items?itemName=jtavin.ldif
   
+## Description
 Simple LDIF syntax highlighter for Visual Studio Code  
-LDIF stands for "LDAP Data Interchange Format"  
-LDIF is a schema extension file format for Microsoft Active Directory  
-Based on syntax highlighter [LDIF-syntax](https://github.com/FlashSystems/LDIF-Syntax) for Sublime
+`LDIF` - `"LDAP Data Interchange Format"` is a schema extension file format for Microsoft [Active Directory](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services)  
+This extension is based on syntax highlighter [LDIF-syntax](https://github.com/FlashSystems/LDIF-Syntax) for Sublime
 
 ## Features
 
-Syntax highlighter for LDIF files  
+Syntax highlighting for `.ldif` files  
   
-For example:  
+Example:  
   
 ![ldif syntax file example](/images/ldif-syntax.png)
 
