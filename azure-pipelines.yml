@@ -1,0 +1,32 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+parameters:
+- name: yesNo # name of the parameter; required
+  type: boolean # data type of the parameter; required
+  default: false
+  displayName: 'Ask if yes or no'
+- name: dropdown
+  type: string
+  default: kuku
+  displayName: 'Enter Text here!'
+  values:
+  - kuku
+  - ubuntu
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Tell the world Hello!'
+- script: echo ${{ parameters.yesNo }}
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
