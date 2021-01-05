@@ -13,19 +13,20 @@ parameters:
 - name: yesNo # name of the parameter; required
   type: boolean # data type of the parameter; required
   default: false
-  displayName: 'Ask if yes or no'
+  displayName: 'Yes or No, decide!'
 - name: dropdown
   type: string
   default: kuku
-  displayName: 'Enter Text here!'
+  displayName: 'This is a DropDown!'
   values:
   - kuku
   - ubuntu
 
 steps:
 - script: echo Hello, world!
-  displayName: 'Tell the world Hello!'
+  displayName: 'Show Parameters'
 - script: echo ${{ parameters.yesNo }}
+- script: echo ${{ parameters.dropdown }}
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
